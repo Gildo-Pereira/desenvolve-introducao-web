@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>Pesqisa de satisfação</title>
+</head>
+<body>
+    <h1>Pesquisa de satisfação</h1>
+    <form action="pagina-a-ser-criada" method="post">
+        <p>
+            <h2>Dados Pessoais</h2>
+            <label for="nome">Nome:</label>
+            <input type="text" placeholder="Digite Seu Nome" id="nome">
+        </p>
+        <p>
+            <label for="email">E-mail:</label>
+            <input type="email" placeholder="Digite Seu E-mail" id="email">
+        </p>
+        <p>
+            <label for="fone">Numero de Telefone:</label>
+            <input type="tel" placeholder="Digite Seu Telefone" id="fone">
+        </p>
+    
+        <p>
+            <h2>Dados da Pesquisa</h2>
+            <h4>Como você avalia nosso atendimento?</h4>
+            <input type="radio" id="otimo" name="ava-atendimento">
+            <label for="otimo">Otimo</label><br>
+            <input type="radio" id="bom" name="ava-atendimento">
+            <label for="bom" id="">Bom</label><br>
+            <input type="radio" id="regular" name="ava-atendimento">
+            <label for="regular">Regular</label><br>
+            <input type="radio" id="ruim" name="ava-atendimento">
+            <label for="ruim">Ruim</label><br>
+        </p>
+
+        <p>
+            <h4>Voçê recomendaria nosso serviço a um amiogo?</h4>
+            <input type="radio" id="sim" name="sim-nao">
+            <label for="sim">Sim</label><br>
+            <input type="radio" id="nao" name="sim-nao">
+            <label for="nao" id="">Não</label><br>
+            
+        </p>
+
+        <p>
+            <h4>Qual o principal motivo de usar nosso serviço?</h4>
+            <select>
+                <Option>Preço</Option>
+                <option>Qualidade</option>
+                <option>Durabilidade</option>
+                <option>Atendimento</option>
+                <option>Suporte personalizados</option>
+                <option>Outros</option>
+            </select>
+        </p>
+        <p>
+            <input type="checkbox" id="autorizaçao">
+            <label for="autorizaçao">Autorizo compartilhar minhas respostas com terceiros.</label>
+        </p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
