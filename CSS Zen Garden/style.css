@@ -1,0 +1,15 @@
+/*
+cor de fundo = rgb(80, 80, 80)
+cor da fonte = rgb(255, 255, 255)
+cor do fundo destaque = rgb(00, 00, 00)
+cor da fonte destaque = rgb(255, 00, 00)
+*/
+
+body{
+    background-color: rgb(80, 80, 80);
+    color: rgb(255, 255, 255);
+}
+h1{
+    color: rgb(255, 00, 00);
+    background-color: rgb(00, 00, 00);
+}
