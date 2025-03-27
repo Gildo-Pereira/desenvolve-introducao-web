@@ -1,0 +1,72 @@
+/*
+cor de fundo = rgb(80, 80, 80)
+cor da fonte = rgb(255, 255, 255)
+cor do fundo destaque = rgb(00, 00, 00)
+cor da fonte destaque = rgb(255, 00, 00)
+*/
+
+html{
+    background-color: rgb(80, 80, 80);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Verdana,sans-serif;
+    width: 80%;
+    max-width: 1280x;
+    margin-left: 10%;
+}
+p{
+    text-indent: 1em;
+}
+h1{
+    font-size: 1.8rem;
+}
+h1,h2,h3{
+    text-align: center;
+}
+h2{
+    font-size: 1.4rem;
+}
+h3{
+    font-size: 1.2rem;
+}
+.summary{
+    text-align: right;
+}
+.main p{
+    text-indent: 1.5;
+}
+abbr{
+    font-variant: small-caps;
+}
+.intro{
+    height: 550px;
+}
+.design-archives{
+    display: none;
+}
+header{
+    background-color: rgb(00, 00, 00);
+    color: rgb(255, 255, 255);
+}
+header h1, header h2{
+    display: inline-block;   
+}
+header h1{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+aside ul{
+    list-style-type: none;
+}
+aside ul li{
+    margin: 1em;
+    text-align: center;
+}
+footer{
+    margin: 4%;
+}
+footer a{
+    border: solid 2px black;
+    padding: 0.5em;
+    display: inline-block;
+}
